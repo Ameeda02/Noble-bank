@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width:1200px;
+    height:800px;
+    margin-left: 32px;
+}
+
+.content {
+    width: 1200px;
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4rem;
+    align-items: center;
+}
+.content .name-content{
+    align-items: center;
+    flex: 1 1 40rem;
+}
+.content .name-content h1 {
+    margin-left: 40px;
+    top: 60px;
+    border-radius: nullpx;
+    font-family: Inter;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.005em;
+    text-align: center;
+    color: #5F1A80;
+}
+.content .name-content img {
+    height: 14rem;
+    width: 15rem;
+    margin-left: 150px;
+    top: 5px;
+    border-radius: 0px;
+    margin-bottom: 50px;
+    color: solid #D4BA00;
+    align-items: center;
+}
+
+.content .form {
+    height: 1000px;
+    width: 600px;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    background: #d384f83d;
+    box-shadow: 0px 4px 4px 0px #00000080;
+    display: flex;
+    flex: 1 1 40rem;
+    flex-direction: column;
+}.content .form label{
+    display: inline;
+    float: inline;
+    margin-left: 45px;
+    margin-right: auto;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+.content .form input {
+    display: inline;
+    float: inline;
+    width: 500px;
+    outline: none;
+    padding: 0.6rem 0.8rem;
+    font-size: 1rem;
+    height: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    top: 40px;
+    border-radius: 4px;
+    margin-bottom: 0.8rem;
+    
+}
+.content .form h3{
+    height: 59px;
+    top: 48px;
+    border-radius: nullpx;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000000;
+}
+.content .form p{
+    top: 100px;
+    border-radius: nullpx;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 200;
+    letter-spacing: 0em;
+    text-align: center;
+    font-variation-settings: 'slnt' -3;
+    color: #000000;
+}
+.content .form .checkbox{
+    height: 20px;
+    margin-left: -180px;
+    align-items: center;
+    margin-top: 40px;
+    display: inline;
+}
+.content .form .checkbox label{
+    font-size: 15px;
+    font-weight: 50;
+    letter-spacing: 0em;
+    color: #000000;
+    font-family: inter;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-left: 0px;
+    margin-top: 10px;
+    display: inline;
+}
+.content .form button {
+    height: 70px;
+    width: 400px;
+    border-radius: 8px;
+    padding: 20px 160px 20px 160px;
+    background: #BE34FF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #FFFFFF;
+    align-items: center;
+    margin-left: 100px;
+}
+.content .form button:hover {
+    background: #b42bf3;
+    cursor: pointer;
+}
+.content .form h1 {
+    height: 34px;
+    border-radius: nullpx;
+    color: solid #000000;
+    text-align: center;
+    font-size: 1rem;
+    padding-top: 0.8rem;
+}
+.content .form hr {
+    margin: 1rem;
+}
+.content .form .login {
+    height: 70px;
+    width: 400px;
+    align-items: center;
+    border-radius: 8px;
+    padding: 20px 48px 20px 48px;
+    background: #BE34FF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 100px;
+}
+.content .form .login:hover {
+    background: #b42bf3;
+    cursor: pointer;
+}
+.content .form .login img{
+    height: 28px;
+    width: 28px;
+    margin-right: 18px;
+    top: 23px;
+    border-radius: 0px;
+}
